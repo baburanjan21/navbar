@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.naviteams {
+    list-style: none;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+
+    display: flex;              
+    justify-content:right;
+}
+
+.navlinks {
+    float: left;
+    
+}
+
+.nav1 {
+    display: block;         
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.nav1:hover {
+    background-color: gray;  
+}
+p{
+    text-align: center;
+    text-decoration: dotted;
+    font-size:20px;
+    color:black;
+    justify-content:space-around;
+}
+p:hover{
+    color:rgb(234, 136, 9);
+}
